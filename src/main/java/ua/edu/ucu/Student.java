@@ -36,4 +36,7 @@ class Student {
         return "Student{name=" + name + ", surname=" + surname + ", " + "GPA=" + GPA + ", year=" + year + '}';
     }
 
+    public boolean equals(Student student) {
+        return student.toString().equals(toString());
+    }
 }

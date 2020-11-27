@@ -16,8 +16,7 @@ public class SmartArrayAppTest {
         Integer[] res = 
                 SmartArrayApp.filterPositiveIntegersSortAndMultiplyBy2(integers);
         Integer[] expectedRes = {2, 4, 6};
-        
-        assertArrayEquals(expectedRes, res);        
+        assertArrayEquals(expectedRes, res);
     }
 
     @Test
